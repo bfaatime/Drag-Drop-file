@@ -1,0 +1,50 @@
+ body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+}
+#fileList {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.fileItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.fileItem img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.removeAllBtn{
+    margin-top: 400px;
+    cursor: pointer;
+    border-radius: 5%;
+    background-color: red;
+    color: white;
+    width: 190px;
+    height: 30px;
+    border: none;
+}
+input{
+    border: 3px solid black;
+    border-style: dashed;
+ margin-left: 600px;
+ margin-top: 50px;
+    width: 800px;
+    height: 300px;
+    background-color: aquamarine;
+}
